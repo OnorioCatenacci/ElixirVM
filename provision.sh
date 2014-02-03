@@ -24,7 +24,7 @@ apt-get install -y vim >/dev/null 2>&1
 #Get and build the elixir source
 echo "Getting elixir source and building it . . ."
 readonly base_user_dir="/usr/bin"
-readonly elixir_source_dir="$base_user_dir/elixir_0.12.2"
+readonly elixir_source_dir="$base_user_dir/elixir_0.12.3"
 cd "$base_user_dir"
 git clone https://github.com/elixir-lang/elixir.git >/dev/null 2>&1
 mv elixir "$elixir_source_dir"
